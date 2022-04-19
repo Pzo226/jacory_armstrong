@@ -19,7 +19,7 @@
 <link rel="icon" href="assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
 <link rel="icon" href="assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
 <link rel="manifest" href="assets/img/favicons/manifest.json">
-<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<link rel="icon" href="assets/img/favicons/favicon.ico">
 <meta name="theme-color" content="#7952b3">
 
 
@@ -49,7 +49,7 @@
   <!-- Fixed navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/"><img src="images/logo.png" width="190" height="65" alt="Jacory Armstrong Logo" /></a>
+      <a class="navbar-brand" href="/"><img src="images/logo.png" width="183" height="120" alt="Jacory Armstrong Logo" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -80,23 +80,52 @@
     <h1 class="visually-hidden">Heroes examples</h1>
     <div class="b-example-divider"></div>
 <!-- Begin page content -->
-<main class="flex-shrink-0">
-  <div class="container">
-    <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-    <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code class="small">main &gt; .container</code>.</p>
-    <p>Back to <a href="/docs/5.0/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
-  </div>
-</main>
 
-<footer class="footer mt-auto py-3 bg-light">
-  <div class="container">
-    <span class="text-muted">Place sticky footer content here.</span>
-  </div>
-</footer>
+  <!-- FOOTER -->
+  <footer class="w-100 py-4 flex-shrink-0" style="background-color: #5c636a">
+    <div class="container py-4">
+      <div class="row gy-4 gx-5">
+        <div class="col-lg-4 col-md-6">
+          <h5 class="h1 text-white">Jacory's Story</h5>
+          <p class="small text-muted">My life my story my journy</p>
+          <p class="small text-muted mb-0"><script>document.write(new Date().getFullYear())</script> &copy; Copyrights. All rights reserved.
+            <a class="text-primary" href="/">jacoryarmstrong.com</a></p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="text-white mb-3">Quick links</h5>
+          <ul class="list-unstyled text-muted">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Get started</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="text-white mb-3">My Brands</h5>
+          <ul class="list-unstyled text-muted">
+            <li><a href="https://brianclincy.com">Mentor Brian Clincy</a></li>
+            <li><a href="https://www.youtube.com/channel/UCjUy5GbylYJC6kxJZYRwwVA">Rio Da Real OG</a></li>
+            <li><a href="https://www.instagram.com/destodubb/?hl=en#">Destodubb off the Cough</a></li>
+            <li><a href="https://www.instagram.com/exclusivedeliveryco/?hl=en">Exclusivedeliveryco</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5 class="text-white mb-3">Newsletter</h5>
+          <p class="small text-muted">Sign up for my newsletter. Let's connect!</p>
+          <form action="#">
+            <div class="input-group mb-3">
+              <input class="form-control" type="text" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
     <script src="js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-      
+</main>
   </body>
 </html>
