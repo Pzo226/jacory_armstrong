@@ -1,0 +1,29 @@
+{
+  "name": "jacory_armstrong",
+  "version": "1.0.0",
+  "description": "main representation of Jacory on a website ",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build scss/style.css -o css/tstyle.css",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pzo226/jacory_armstrong.git"
+  },
+  "keywords": [
+    "jacory",
+    "armstrong"
+  ],
+  "author": "jacory armstrong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pzo226/jacory_armstrong/issues"
+  },
+  "homepage": "https://github.com/Pzo226/jacory_armstrong#readme",
+  "dependencies": {
+    "@react-spring/parallax": "^9.4.5",
+    "node-sass": "^7.0.1",
+    "tailwindcss": "^3.0.24"
+  }
+}
